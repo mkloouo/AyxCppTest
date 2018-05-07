@@ -1,0 +1,18 @@
+Line: 31
+    Issue: Magical constant 64.
+    Proposed solution: Add local const/constexpr variable describing this constant.
+Line: 34
+    Issue: Function object reader.
+    Proposed solution: Functions have to be actions, you might name it readDataPiece.
+Line: 36
+    Issue: Magical constant -1 shadowing real data, (there might be -1 in your data waiting to be read)
+    Proposed solution: Think of another way of reading data pieces.
+Line: 38
+    Issue: Use of newline escape literal, out might be bufferized and your newline character may
+    appear somewhere your really wouldn't thought it could.
+    Proposed solution: Use std::endl I/O manipulator.
+
+Overall:
+    I think constructing Data object is pretty well clarifying whose reader it is. GetDataReader.
+    Try to think of some other way for reading data. You might create inner reader class and give
+    it to user.

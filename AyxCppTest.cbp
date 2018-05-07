@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AyxCppTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/modnosumov/Development/AyxCppTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/modnosumov/Development/AyxCppTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/modnosumov/Development/AyxCppTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AyxCppTest">
+				<Option output="/home/modnosumov/Development/AyxCppTest/AyxCppTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/modnosumov/Development/AyxCppTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 AyxCppTest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AyxCppTest/fast">
+				<Option output="/home/modnosumov/Development/AyxCppTest/AyxCppTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/modnosumov/Development/AyxCppTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 AyxCppTest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/modnosumov/Development/AyxCppTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/Add.h">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/catch/catch.hpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise1.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise2.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise2.png">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise3.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise3_data.h">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise3_fill.h">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise4.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise5.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/exercise6.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/main.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/polygon.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/polygon.h">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/spatial.cpp">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/spatial.h">
+			<Option target="AyxCppTest"/>
+		</Unit>
+		<Unit filename="/home/modnosumov/Development/AyxCppTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
