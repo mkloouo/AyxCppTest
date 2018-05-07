@@ -1,3 +1,5 @@
+#include <mutex>
+
 namespace AyxCppTest
 {
 	struct Point

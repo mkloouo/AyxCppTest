@@ -4,6 +4,7 @@
 #include <mutex>
 #include <condition_variable>
 #include <atomic>
+#include <iostream>
 #include "spatial.h"
 
 namespace AyxCppTest {
@@ -16,6 +17,7 @@ namespace AyxCppTest {
 	namespace {
 		class RectangleSizeCounter {
 		private:
+//			double m_nTotalSize {0};
 			std::atomic<long> m_nTotalSize {0};
 		public:
 			RectangleSizeCounter();
@@ -23,15 +25,12 @@ namespace AyxCppTest {
 			double GetTotalSize();
 		};
 
-		std::mutex RectangleSizeCounter::sizeMutex {};
-
 		RectangleSizeCounter::RectangleSizeCounter() {
 		}
 
 		void RectangleSizeCounter::AddRectangle(Rectangle rect) {
 			m_nTotalSize += rect.Size();
 		}
-
 		double RectangleSizeCounter::GetTotalSize() {
 			return m_nTotalSize;
 		}
@@ -40,7 +39,7 @@ namespace AyxCppTest {
 
 	TEST_CASE("exercise4") {
 		// enable to run exercise 4 tests
-//#if 0
+#if 1
 		std::array<Rectangle, 4> rectangles {Rectangle {Point {1, 1}, Point {2, 2}},
 											 Rectangle {Point {2, 2}, Point {4, 4}},
 											 Rectangle {Point {1, 1}, Point {3, 2}},
@@ -75,6 +74,6 @@ namespace AyxCppTest {
 		REQUIRE(std::chrono::milliseconds(400) > std::chrono::system_clock::now() - b);
 		REQUIRE(std::chrono::milliseconds(100) < std::chrono::system_clock::now() - b);
 
-//#endif
+#endif
 	}
 }

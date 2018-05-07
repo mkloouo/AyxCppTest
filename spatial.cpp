@@ -37,7 +37,6 @@ namespace AyxCppTest {
 
 	Rectangle::Rectangle(Point topLeft, Point bottomRight)
 		: m_TopLeft(topLeft), m_BottomRight(bottomRight) {
-
 	}
 
 	bool Rectangle::Contains(const Point& pt) {

@@ -1,8 +1,7 @@
 #include "catch/catch.hpp"
 #include "Add.h"
 
-namespace AyxCppTest
-{
+namespace AyxCppTest {
 	/**
 	* Provide an interface to exercise5's add function, so an external 
 	* C program can link to it and use it.
@@ -13,15 +12,13 @@ namespace AyxCppTest
 	*   -Complete the AddStr function.
 	*   -Add test cases as appropriate. Repair existing faulty tests as needed.
 	*/
-	extern "C" const char* AddStr(const char* lhs, const char* rhs)
-	{
-		return Add(lhs, rhs).c_str();
+	extern "C" const char* AddStr(const char* lhs, const char* rhs) {
+		return Add((lhs ? lhs : ""), (rhs ? rhs : "")).c_str();
 	}
 
-	TEST_CASE("exercise6")
-	{
-		// enable to run exercise 6 tests
+	TEST_CASE("exercise6") {
 #if 0
+		// enable to run exercise 6 tests
 		CHECK(AddStr("1", "2") == "3");
 		CHECK(AddStr("42", "2") == "44");
 		CHECK(AddStr("20", "22") == "42");
